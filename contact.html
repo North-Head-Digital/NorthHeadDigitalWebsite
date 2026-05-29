@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Digital Readiness Audit — NorthHead Digital</title>
+  <meta name="description" content="Book a free 30-minute Digital & AI Readiness Audit. We'll identify where your business is losing time, leads, or visibility — and the simplest way to fix it." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="NorthHead Digital home">
+        <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="20" fill="none" stroke="#3e8fb8" stroke-width="3" opacity="0.6"/><path d="M32 12 L40 38 L32 33 L24 38 Z" fill="#14323f"/><path d="M32 52 L26 36 L32 39 L38 36 Z" fill="#2f6b57"/></svg>
+        <span>NorthHead<b>Digital</b></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false"><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html" class="btn btn--primary">Free Audit</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow" style="color:var(--sand)">Free 30-minute consultation</span>
+        <h1>Schedule a Digital &amp; AI Readiness Audit</h1>
+        <p>The goal isn't to sell you technology. It's to understand how customers find you, where you lose time, and where you may be missing easy business — and you'll leave with a clear summary either way.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <!-- Left: what to expect -->
+          <div class="reveal">
+            <span class="eyebrow">What to expect</span>
+            <h2>A calm, plain-language conversation</h2>
+            <p>In about 30 minutes we'll walk through your online presence and day-to-day operations, then summarize the top opportunities.</p>
+            <ul class="feature-list">
+              <li><strong>Visibility</strong> — how easily customers find you on Google and mobile</li>
+              <li><strong>Conversion</strong> — how easy it is to call, book, or request a quote</li>
+              <li><strong>Operations</strong> — repeat questions and manual follow-up costing you time</li>
+            </ul>
+            <p style="margin-top:24px;">Prefer email? Reach us at
+              <a href="mailto:hello@northheaddigital.com">hello@northheaddigital.com</a>.
+            </p>
+            <blockquote class="pull" style="margin-top:28px;">"Would you like a simple proposal with the exact scope, price, and timeline?"</blockquote>
+          </div>
+
+          <!-- Right: form -->
+          <div class="reveal">
+            <div class="form-card">
+              <!--
+                Netlify Forms compatible: the data-netlify attribute + hidden
+                form-name input enable capture on Netlify with no backend.
+                The honeypot field deters spam. main.js handles submission UX.
+              -->
+              <form name="audit-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-contact>
+                <input type="hidden" name="form-name" value="audit-request" />
+                <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+
+                <div class="field-row">
+                  <div class="field">
+                    <label for="business">Business name</label>
+                    <input type="text" id="business" name="business" autocomplete="organization" required />
+                  </div>
+                  <div class="field">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required />
+                  </div>
+                </div>
+
+                <div class="field-row">
+                  <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required />
+                  </div>
+                  <div class="field">
+                    <label for="phone">Phone <span style="color:var(--muted);font-weight:500;">(optional)</span></label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel" />
+                  </div>
+                </div>
+
+                <div class="field-row">
+                  <div class="field">
+                    <label for="industry">Type of business</label>
+                    <select id="industry" name="industry" required>
+                      <option value="" disabled selected>Choose one…</option>
+                      <option>Restaurant / cafe</option>
+                      <option>Hotel / inn / lodging</option>
+                      <option>Retail shop</option>
+                      <option>Contractor / trades</option>
+                      <option>Service business</option>
+                      <option>New business / launch</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="goal">Main goal right now</label>
+                    <select id="goal" name="goal" required>
+                      <option value="" disabled selected>Choose one…</option>
+                      <option>More calls or walk-ins</option>
+                      <option>More bookings or quote requests</option>
+                      <option>Better Google visibility</option>
+                      <option>Recover missed leads</option>
+                      <option>Save time on repetitive work</option>
+                      <option>A new or refreshed website</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="message">Anything you'd like us to know? <span style="color:var(--muted);font-weight:500;">(optional)</span></label>
+                  <textarea id="message" name="message" placeholder="Tell us a little about your business and what's frustrating you online."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn--primary btn--lg" style="width:100%;justify-content:center;">Request my free audit</button>
+                <p class="form-status" role="status" aria-live="polite"></p>
+                <p class="note" style="margin-top:14px;margin-bottom:0;text-align:center;">No pressure, no obligation. We typically respond within one business day.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">
+            <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="20" fill="none" stroke="#3e8fb8" stroke-width="3" opacity="0.7"/><path d="M32 12 L40 38 L32 33 L24 38 Z" fill="#dcc9a6"/><path d="M32 52 L26 36 L32 39 L38 36 Z" fill="#2f6b57"/></svg>
+            <span>NorthHead<b>Digital</b></span>
+          </a>
+          <p>Modern web design, local SEO, and practical AI systems for Pacific Northwest coastal small businesses.</p>
+        </div>
+        <div class="footer-col"><h4>Services</h4><ul>
+          <li><a href="services.html#web-design">Web Design</a></li>
+          <li><a href="services.html#local-seo">Local SEO</a></li>
+          <li><a href="services.html#ai">Practical AI</a></li>
+          <li><a href="services.html#automation">Automation</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Company</h4><ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Free Audit</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Get in touch</h4><ul>
+          <li><a href="mailto:hello@northheaddigital.com">hello@northheaddigital.com</a></li>
+          <li>Pacific Northwest coast</li>
+        </ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> NorthHead Digital. All rights reserved.</span>
+        <span>Modern digital tools for local business.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

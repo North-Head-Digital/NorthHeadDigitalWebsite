@@ -1,0 +1,24 @@
+# Netlify deployment configuration for the NorthHead Digital static site.
+# The site is plain HTML/CSS/JS with no build step, so we publish the repo root.
+
+[build]
+  publish = "."
+  command = ""
+
+# Security & caching headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
