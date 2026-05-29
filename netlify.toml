@@ -1,9 +1,14 @@
 # Netlify deployment configuration for the NorthHead Digital static site.
 # The site is plain HTML/CSS/JS with no build step, so we publish the repo root.
+#
+# Note: settings here OVERRIDE the Netlify UI build settings. We set an explicit
+# no-op command (an empty string is ignored and lets the UI command run instead)
+# and publish the repo root so Netlify does not look for a non-existent build
+# output directory such as "public" or "dist".
 
 [build]
   publish = "."
-  command = ""
+  command = "echo 'No build step required — static HTML/CSS/JS site.'"
 
 # Security & caching headers
 [[headers]]
