@@ -1,3 +1,6 @@
 
 # Netlify build output
 public/
+
+# Netlify CLI local state
+.netlify/
