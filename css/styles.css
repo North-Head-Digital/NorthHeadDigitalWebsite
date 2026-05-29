@@ -636,3 +636,6 @@ blockquote.pull { border-left: 4px solid var(--sand); padding-left: 24px; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .btn:hover, .card:hover, .price-card:hover { transform: none; }
 }
+
+/* Service-area line in hero */
+.hero-area { margin-top: 22px; font-size: 0.97rem; color: #9fb8c2; max-width: 48ch; }
