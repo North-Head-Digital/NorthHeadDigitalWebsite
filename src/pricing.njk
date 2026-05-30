@@ -91,39 +91,17 @@ schema: pricing
           <p>Premium value comes over time — through care plans, seasonal campaigns, and add-ons as your business grows.</p>
         </div>
         <div class="grid grid-3">
+          {% for plan in pricing.carePlans %}
           <div class="card reveal">
-            <span class="ico-frame"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-care-light"></use></svg></span>
-            <h3>Essentials care</h3>
-            <div class="price price--care">$75–$175<small>per month</small></div>
+            <span class="ico-frame"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#{{ plan.icon }}"></use></svg></span>
+            <h3>{{ plan.name }}</h3>
+            <div class="price price--care">{{ plan.price }}<small>per month</small></div>
             <ul class="feature-list feature-list--spaced">
-              <li>Updates &amp; security checks</li>
-              <li>Monthly Google post</li>
-              <li>Small edits &amp; review help</li>
-              <li>Basic traffic report</li>
+              {% for f in plan.features %}<li>{{ f }}</li>
+              {% endfor %}
             </ul>
           </div>
-          <div class="card reveal">
-            <span class="ico-frame"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-care-steady"></use></svg></span>
-            <h3>Growth care</h3>
-            <div class="price price--care">$250–$650<small>per month</small></div>
-            <ul class="feature-list feature-list--spaced">
-              <li>Up to 5 hours/month</li>
-              <li>AI FAQ &amp; workflow updates</li>
-              <li>Monthly strategy call</li>
-              <li>Performance reporting</li>
-            </ul>
-          </div>
-          <div class="card reveal">
-            <span class="ico-frame"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-care-full"></use></svg></span>
-            <h3>Launch &amp; partner care</h3>
-            <div class="price price--care">$500–$1,250+<small>per month</small></div>
-            <ul class="feature-list feature-list--spaced">
-              <li>Up to 10 hours/month</li>
-              <li>Campaign &amp; SEO expansion</li>
-              <li>Automation improvements</li>
-              <li>Ongoing growth roadmap</li>
-            </ul>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </section>
@@ -140,15 +118,9 @@ schema: pricing
           <table>
             <thead><tr><th>Add-on</th><th>Price</th></tr></thead>
             <tbody>
-              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-page"></use></svg>Extra website page</span></td><td>$150–$300</td></tr>
-              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-menu"></use></svg>Menu setup</span></td><td>$250–$500</td></tr>
-              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-booking"></use></svg>Booking integration</span></td><td>$300–$750</td></tr>
-              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-gallery"></use></svg>Event landing page</span></td><td>$300–$600</td></tr>
-              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-reviews"></use></svg>Review automation</span></td><td>$250–$750</td></tr>
-              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-chatbot"></use></svg>AI chatbot</span></td><td>$750–$1,500</td></tr>
-              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-contact"></use></svg>Email/SMS setup</span></td><td>$500–$1,250</td></tr>
-              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-shop"></use></svg>E-commerce starter shop</span></td><td>$1,500–$4,000</td></tr>
-              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-quote"></use></svg>Contractor quote intake</span></td><td>$500–$1,500</td></tr>
+              {% for a in pricing.addOns %}
+              <tr><td><span class="addon-cell"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#{{ a.icon }}"></use></svg>{{ a.name }}</span></td><td>{{ a.price }}</td></tr>
+              {% endfor %}
             </tbody>
           </table>
         </div>
