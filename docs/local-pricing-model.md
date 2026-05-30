@@ -395,8 +395,8 @@ For a small market, payment flexibility matters.
 
 **Option 3: Setup + monthly** (good for cautious owners)
 
-- Example — Digital Essentials: $500 setup, then $175/month for 12 months
-- Include a contract term so you do not undercharge.
+- Example — Digital Essentials typical $995 project: $500 down, then $41.25/month for 12 months
+- Ongoing care should be quoted separately so payment-plan math does not inflate or obscure the project total.
 
 ---
 
