@@ -497,18 +497,84 @@ li {
 
 /* Hero visual card */
 .hero-card {
+  position: relative;
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: var(--radius);
   padding: 26px;
   backdrop-filter: blur(4px);
+  overflow: hidden;
+}
+.hero-card::before {
+  content: "";
+  position: absolute;
+  inset: -35% auto auto 48%;
+  width: 260px;
+  aspect-ratio: 1;
+  background: radial-gradient(circle, rgba(220, 201, 166, 0.2), transparent 62%);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+.hero-brand-pulse {
+  position: relative;
+  width: 92px;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  margin: 0 0 18px;
+}
+.hero-brand-pulse::before,
+.hero-brand-pulse::after {
+  content: "";
+  position: absolute;
+  inset: 9px;
+  border: 1px solid rgba(220, 201, 166, 0.35);
+  border-radius: 50%;
+  animation: hero-ring-pulse 3.8s var(--ease) infinite;
+}
+.hero-brand-pulse::after {
+  inset: 2px;
+  border-color: rgba(62, 143, 184, 0.3);
+  animation-delay: 1.4s;
+}
+.hero-brand-mark {
+  position: relative;
+  z-index: 1;
+  width: 76px;
+  height: 76px;
+  filter: drop-shadow(0 12px 24px rgba(13, 36, 46, 0.28));
+}
+.hero-brand-ring {
+  fill: none;
+  stroke-width: 2.5;
+}
+.hero-brand-ring--outer {
+  stroke: rgba(255, 255, 255, 0.56);
+  stroke-dasharray: 8 6;
+  animation: hero-ring-turn 18s linear infinite;
+  transform-origin: 32px 32px;
+}
+.hero-brand-ring--inner {
+  stroke: rgba(62, 143, 184, 0.72);
+}
+.hero-brand-needle {
+  animation: hero-needle-settle 1.25s var(--ease) both;
+  transform-origin: 32px 32px;
+}
+.hero-brand-needle path:first-child {
+  fill: var(--sand);
+}
+.hero-brand-tail {
+  fill: rgba(255, 255, 255, 0.86);
 }
 .hero-card h3 {
+  position: relative;
   color: #fff;
   font-size: 1.05rem;
   margin-bottom: 16px;
 }
 .hero-stat {
+  position: relative;
   display: flex;
   align-items: baseline;
   gap: 12px;
@@ -526,6 +592,39 @@ li {
 .hero-stat span {
   color: #b9cdd5;
   font-size: 0.98rem;
+}
+
+@keyframes hero-needle-settle {
+  0% {
+    opacity: 0;
+    transform: rotate(-32deg) scale(0.9);
+  }
+  62% {
+    opacity: 1;
+    transform: rotate(7deg) scale(1.04);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+@keyframes hero-ring-pulse {
+  0%,
+  100% {
+    opacity: 0.42;
+    transform: scale(0.86);
+  }
+  48% {
+    opacity: 0.9;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes hero-ring-turn {
+  to {
+    transform: rotate(360deg);
+  }
 }
 .section-head--cta {
   margin-top: 44px;
@@ -1170,6 +1269,12 @@ blockquote.pull {
   .card:hover,
   .price-card:hover {
     transform: none;
+  }
+  .hero-brand-pulse::before,
+  .hero-brand-pulse::after,
+  .hero-brand-ring--outer,
+  .hero-brand-needle {
+    animation: none;
   }
 }
 
