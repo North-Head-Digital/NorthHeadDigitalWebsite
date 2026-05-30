@@ -36,6 +36,14 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
+## Check
+
+Run the dependency-free static checks before publishing:
+
+```bash
+npm run check
+```
+
 ## Deploy
 
 Deploys to **Netlify** with the build command in `netlify.toml`, which copies the
