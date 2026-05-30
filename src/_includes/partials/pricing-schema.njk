@@ -14,27 +14,15 @@
     "@type": "OfferCatalog",
     "name": "Pricing plans",
     "itemListElement": [
+      {%- for t in pricing.tiers %}
       {
         "@type": "Offer",
-        "name": "Digital Essentials",
-        "description": "Website + Google cleanup for local businesses",
+        "name": {{ t.name | dump | safe }},
+        "description": {{ t.subtitle | dump | safe }},
         "priceCurrency": "USD",
-        "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": "750", "maxPrice": "1500" }
-      },
-      {
-        "@type": "Offer",
-        "name": "Growth & Automation",
-        "description": "More leads, fewer missed calls, better follow-up",
-        "priceCurrency": "USD",
-        "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": "2500", "maxPrice": "5000" }
-      },
-      {
-        "@type": "Offer",
-        "name": "Startup Launchpad",
-        "description": "Full digital launch for new or growing businesses",
-        "priceCurrency": "USD",
-        "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": "5000" }
-      }
+        "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "USD", "minPrice": "{{ t.min }}"{% if t.max %}, "maxPrice": "{{ t.max }}"{% endif %} }
+      }{% if not loop.last %},{% endif %}
+      {%- endfor %}
     ]
   }
 }
