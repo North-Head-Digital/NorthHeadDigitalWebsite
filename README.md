@@ -13,20 +13,20 @@ across mobile, tablet, and desktop.
 
 ## Structure
 
-| File | Page |
-|------|------|
-| `src/index.njk` | Home — hero, who we serve, services overview, pillars, pricing teaser, process |
-| `src/services.njk` | Services — Web Design, Local SEO, Practical AI, Automation |
-| `src/pricing.njk` | Pricing — 3 tiers, monthly care, add-ons, payment options |
-| `src/about.njk` | About — story, positioning, values |
-| `src/contact.njk` | Free Digital & AI Readiness Audit request form |
-| `src/_includes/layouts/base.njk` | Shared HTML document shell |
-| `src/_includes/partials/header.njk` | Shared site header/navigation |
-| `src/_includes/partials/footer.njk` | Shared site footer |
-| `src/css/styles.css` | Design system (brand tokens, layout, components, responsive) |
-| `src/js/main.js` | Mobile nav, sticky header, scroll reveal, form handling |
-| `src/assets/favicon.svg` | Compass/headland brand mark |
-| `netlify.toml` | Netlify deploy + headers config |
+| File                                | Page                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------ |
+| `src/index.njk`                     | Home — hero, who we serve, services overview, pillars, pricing teaser, process |
+| `src/services.njk`                  | Services — Web Design, Local SEO, Practical AI, Automation                     |
+| `src/pricing.njk`                   | Pricing — 3 tiers, monthly care, add-ons, payment options                      |
+| `src/about.njk`                     | About — story, positioning, values                                             |
+| `src/contact.njk`                   | Free Digital & AI Readiness Audit request form                                 |
+| `src/_includes/layouts/base.njk`    | Shared HTML document shell                                                     |
+| `src/_includes/partials/header.njk` | Shared site header/navigation                                                  |
+| `src/_includes/partials/footer.njk` | Shared site footer                                                             |
+| `src/css/styles.css`                | Design system (brand tokens, layout, components, responsive)                   |
+| `src/js/main.js`                    | Mobile nav, sticky header, scroll reveal, form handling                        |
+| `src/assets/favicon.svg`            | Compass/headland brand mark                                                    |
+| `netlify.toml`                      | Netlify deploy + headers config                                                |
 
 The site content is drawn from the strategy documents in [`docs/`](docs/):
 brand identity & positioning, the local pricing model, and the readiness audit template.
@@ -48,6 +48,12 @@ Run the static checks before publishing:
 
 ```bash
 npm run check
+```
+
+Format supported source files:
+
+```bash
+npm run format
 ```
 
 ## Deploy

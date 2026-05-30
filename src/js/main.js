@@ -56,8 +56,7 @@
   /* ----- Scroll reveal ------------------------------------------------ */
   var revealEls = document.querySelectorAll(".reveal");
   var reduceMotion =
-    "matchMedia" in window &&
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    "matchMedia" in window && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if ("IntersectionObserver" in window && revealEls.length && !reduceMotion) {
     var io = new IntersectionObserver(
       function (entries) {

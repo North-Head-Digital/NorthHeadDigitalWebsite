@@ -20,6 +20,13 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  eleventyConfig.addTransform("trimHtmlLineEndings", function (content) {
+    if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
+      return content.replace(/[ \t]+$/gm, "");
+    }
+    return content;
+  });
+
   return {
     dir: {
       input: "src",

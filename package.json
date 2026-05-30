@@ -4,9 +4,14 @@
   "private": true,
   "scripts": {
     "build": "eleventy",
-    "check": "npm run build && node scripts/check-static-site.js && node --check src/js/main.js"
+    "check": "npm run build && node scripts/check-static-site.js && npm run validate:html && npm run format:check && node --check src/js/main.js",
+    "format": "prettier --write \"**/*.{js,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{js,json,css,md}\"",
+    "validate:html": "html-validate \"public/**/*.html\""
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.5"
+    "@11ty/eleventy": "^3.1.5",
+    "html-validate": "^11.0.0",
+    "prettier": "^3.8.3"
   }
 }

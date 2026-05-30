@@ -25,14 +25,14 @@ talked down to, overwhelmed, or sold a bloated agency package.
 
 ### Brand personality
 
-| Trait | How it should feel |
-|-------|--------------------|
-| Innovative | Modern, capable, technically current |
-| Grounded | Practical, clear, no hype |
-| Local | Understands coastal business realities |
-| Trustworthy | Calm, honest, plainspoken |
-| Helpful | Solves real problems, not abstract ones |
-| Community-focused | Wants local businesses to stay strong |
+| Trait             | How it should feel                      |
+| ----------------- | --------------------------------------- |
+| Innovative        | Modern, capable, technically current    |
+| Grounded          | Practical, clear, no hype               |
+| Local             | Understands coastal business realities  |
+| Trustworthy       | Calm, honest, plainspoken               |
+| Helpful           | Solves real problems, not abstract ones |
+| Community-focused | Wants local businesses to stay strong   |
 
 ---
 
@@ -161,16 +161,16 @@ perspective, a place where land meets ocean, looking ahead.
 ### Logo ideas
 
 **Option 1: Headland + signal** — a simple headland/cliff shape with subtle signal lines or
-digital nodes. *Meaning:* local landscape meets digital connectivity.
+digital nodes. _Meaning:_ local landscape meets digital connectivity.
 
-**Option 2: Compass mark** — a clean compass-inspired symbol pointing north. *Meaning:*
+**Option 2: Compass mark** — a clean compass-inspired symbol pointing north. _Meaning:_
 guidance, clarity, direction, strategy.
 
-**Option 3: Lighthouse abstraction** — a minimal lighthouse beam or beacon. *Meaning:*
+**Option 3: Lighthouse abstraction** — a minimal lighthouse beam or beacon. _Meaning:_
 visibility, trust, helping businesses get found.
 
 **Option 4: N-shaped coastline** — a stylized "N" formed from coastline or wave geometry.
-*Meaning:* local identity plus modern design.
+_Meaning:_ local identity plus modern design.
 
 **Best logo direction:** Minimal compass/headland mark. Avoid anything too literal, like a
 cartoon lighthouse, wave, or generic tech circuit board.
@@ -179,13 +179,13 @@ cartoon lighthouse, wave, or generic tech circuit board.
 
 ## 10. Color Palette
 
-| Role | Color direction | Use |
-|------|-----------------|-----|
-| Primary | Deep coastal navy | Trust, stability, professionalism |
-| Secondary | Evergreen / spruce green | Local, grounded, natural |
-| Accent | Warm sand / driftwood | Approachability, warmth |
-| Highlight | Soft coastal blue | Digital clarity, links, buttons |
-| Neutral | Fog gray / off-white | Clean layouts, readability |
+| Role      | Color direction          | Use                               |
+| --------- | ------------------------ | --------------------------------- |
+| Primary   | Deep coastal navy        | Trust, stability, professionalism |
+| Secondary | Evergreen / spruce green | Local, grounded, natural          |
+| Accent    | Warm sand / driftwood    | Approachability, warmth           |
+| Highlight | Soft coastal blue        | Digital clarity, links, buttons   |
+| Neutral   | Fog gray / off-white     | Clean layouts, readability        |
 
 **Color personality** — the palette should say:
 
@@ -282,13 +282,13 @@ problem.
 
 ## 16. Example Tone Translations
 
-| Instead of saying | Say |
-|-------------------|-----|
+| Instead of saying                                 | Say                                                                            |
+| ------------------------------------------------- | ------------------------------------------------------------------------------ |
 | "We implement AI-powered digital transformation." | "We set up simple tools that save time and help customers get answers faster." |
-| "We optimize your conversion funnel." | "We make it easier for people to call, book, or request a quote." |
-| "We deploy automation workflows." | "We help you follow up automatically when you miss a call or message." |
-| "We leverage machine learning." | "We use practical AI where it makes sense and keep you in control." |
-| "We scale your business." | "We help you capture more of the customers already looking for you." |
+| "We optimize your conversion funnel."             | "We make it easier for people to call, book, or request a quote."              |
+| "We deploy automation workflows."                 | "We help you follow up automatically when you miss a call or message."         |
+| "We leverage machine learning."                   | "We use practical AI where it makes sense and keep you in control."            |
+| "We scale your business."                         | "We help you capture more of the customers already looking for you."           |
 
 ---
 
@@ -346,7 +346,7 @@ storytelling, small business consulting.
 > Web design, local SEO, and practical AI systems for coastal small businesses that need to
 > get found, save time, and capture more customers.
 >
-> *Button:* Schedule a Free Digital Readiness Audit
+> _Button:_ Schedule a Free Digital Readiness Audit
 
 **Option 2**
 
@@ -355,7 +355,7 @@ storytelling, small business consulting.
 > NorthHead Digital helps coastal shops, restaurants, lodging businesses, contractors, and
 > service providers modernize without losing their local character.
 >
-> *Button:* Start with a Free Audit
+> _Button:_ Start with a Free Audit
 
 **Option 3**
 
@@ -364,7 +364,7 @@ storytelling, small business consulting.
 > We help Pacific Northwest small businesses improve their online presence, recover missed
 > leads, and use practical AI tools in a way that feels clear, useful, and human.
 >
-> *Button:* Book a 30-Minute Consultation
+> _Button:_ Book a 30-Minute Consultation
 
 ---
 

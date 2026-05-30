@@ -1,7 +1,8 @@
 module.exports = {
   name: "NorthHead Digital",
   url: "https://northheaddigital.com",
-  description: "Modern web design, local SEO, and practical AI systems for Pacific Northwest coastal small businesses.",
+  description:
+    "Modern web design, local SEO, and practical AI systems for Pacific Northwest coastal small businesses.",
   email: "hello@northheaddigital.com",
   serviceArea: "Serving Long Beach, Ilwaco, Ocean Park, Seaview, Chinook, Astoria & the PNW coast",
   navigation: [

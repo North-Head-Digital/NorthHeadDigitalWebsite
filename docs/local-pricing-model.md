@@ -16,11 +16,11 @@ The model rests on five principles:
 
 ## Revised 3-Tier Local Pricing Model
 
-| Tier | Package | Best for | Build price | Estimated hours | Monthly option |
-|------|---------|----------|-------------|-----------------|----------------|
-| Tier 1 | Digital Essentials | Small shops, cafes, basic brick-and-mortar | $750–$1,500 | 10–20 hrs | $75–$175/mo |
-| Tier 2 | Growth & Automation | Established businesses with steady customers | $2,500–$5,000 | 25–50 hrs | $250–$650/mo |
-| Tier 3 | Startup Launchpad | New business launches or serious relaunches | $5,000–$10,000+ | 50–100+ hrs | $500–$1,250/mo |
+| Tier   | Package             | Best for                                     | Build price     | Estimated hours | Monthly option |
+| ------ | ------------------- | -------------------------------------------- | --------------- | --------------- | -------------- |
+| Tier 1 | Digital Essentials  | Small shops, cafes, basic brick-and-mortar   | $750–$1,500     | 10–20 hrs       | $75–$175/mo    |
+| Tier 2 | Growth & Automation | Established businesses with steady customers | $2,500–$5,000   | 25–50 hrs       | $250–$650/mo   |
+| Tier 3 | Startup Launchpad   | New business launches or serious relaunches  | $5,000–$10,000+ | 50–100+ hrs     | $500–$1,250/mo |
 
 This is realistic for a small coastal market.
 
@@ -81,15 +81,15 @@ This should be the easy "yes" package.
 
 ### Estimated build hours
 
-| Task | Hours |
-|------|-------|
-| Discovery call | 1 |
-| Website copy cleanup | 2–3 |
-| Simple site build | 5–10 |
-| Google profile cleanup | 1–2 |
-| Basic SEO setup | 1–2 |
-| Testing and handoff | 1–2 |
-| **Total** | **10–20 hrs** |
+| Task                   | Hours         |
+| ---------------------- | ------------- |
+| Discovery call         | 1             |
+| Website copy cleanup   | 2–3           |
+| Simple site build      | 5–10          |
+| Google profile cleanup | 1–2           |
+| Basic SEO setup        | 1–2           |
+| Testing and handoff    | 1–2           |
+| **Total**              | **10–20 hrs** |
 
 ### Monthly maintenance
 
@@ -175,15 +175,15 @@ This should become the main profit package.
 
 ### Estimated build hours
 
-| Task | Hours |
-|------|-------|
-| Discovery and business workflow review | 2–4 |
-| Website design/build | 12–22 |
-| Copywriting/content cleanup | 4–8 |
-| SEO and Google profile work | 3–5 |
-| Automation setup | 4–8 |
-| Testing and training | 2–3 |
-| **Total** | **25–50 hrs** |
+| Task                                   | Hours         |
+| -------------------------------------- | ------------- |
+| Discovery and business workflow review | 2–4           |
+| Website design/build                   | 12–22         |
+| Copywriting/content cleanup            | 4–8           |
+| SEO and Google profile work            | 3–5           |
+| Automation setup                       | 4–8           |
+| Testing and training                   | 2–3           |
+| **Total**                              | **25–50 hrs** |
 
 ### Monthly maintenance
 
@@ -288,16 +288,16 @@ Do not make this too cheap. Startups and full launches are always more work than
 
 ### Estimated build hours
 
-| Task | Hours |
-|------|-------|
-| Strategy and positioning | 5–10 |
-| Website structure/copy | 8–15 |
-| Website design/build | 20–40 |
-| Local SEO and Google setup | 4–8 |
-| Automation setup | 8–15 |
-| Launch content | 5–10 |
-| Testing, training, launch | 3–5 |
-| **Total** | **50–100+ hrs** |
+| Task                       | Hours           |
+| -------------------------- | --------------- |
+| Strategy and positioning   | 5–10            |
+| Website structure/copy     | 8–15            |
+| Website design/build       | 20–40           |
+| Local SEO and Google setup | 4–8             |
+| Automation setup           | 8–15            |
+| Launch content             | 5–10            |
+| Testing, training, launch  | 3–5             |
+| **Total**                  | **50–100+ hrs** |
 
 ### Monthly maintenance
 
@@ -338,11 +338,11 @@ Do not make this too cheap. Startups and full launches are always more work than
 
 ## Public-Facing Offer Ladder
 
-| Public package | Public price |
-|----------------|--------------|
-| Digital Essentials | Starting at $995 |
+| Public package      | Public price       |
+| ------------------- | ------------------ |
+| Digital Essentials  | Starting at $995   |
 | Growth & Automation | Starting at $3,500 |
-| Startup Launchpad | Custom from $5,000 |
+| Startup Launchpad   | Custom from $5,000 |
 
 This feels realistic for Long Beach-area businesses.
 
@@ -363,17 +363,17 @@ The earlier Tier 1 had too much inside it. At $995, it should **not** include a 
 
 ### Charge extra for
 
-| Add-on | Price |
-|--------|-------|
-| Extra website page | $150–$300 |
-| Menu setup | $250–$500 |
-| Booking integration | $300–$750 |
-| Event landing page | $300–$600 |
-| Review automation | $250–$750 |
-| AI chatbot | $750–$1,500 |
-| Email/SMS setup | $500–$1,250 |
+| Add-on                  | Price         |
+| ----------------------- | ------------- |
+| Extra website page      | $150–$300     |
+| Menu setup              | $250–$500     |
+| Booking integration     | $300–$750     |
+| Event landing page      | $300–$600     |
+| Review automation       | $250–$750     |
+| AI chatbot              | $750–$1,500   |
+| Email/SMS setup         | $500–$1,250   |
 | E-commerce starter shop | $1,500–$4,000 |
-| Contractor quote intake | $500–$1,500 |
+| Contractor quote intake | $500–$1,500   |
 
 This keeps the entry price low without doing too much unpaid work.
 

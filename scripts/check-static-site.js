@@ -29,8 +29,14 @@ for (const page of pages) {
   const checks = [
     [/<title>[^<]+<\/title>/, "missing title"],
     [/<meta name="description" content="[^"]+" \/>/, "missing meta description"],
-    [new RegExp(`<link rel="canonical" href="${page.url.replace(/\//g, "\\/")}" \\/>`), "missing canonical URL"],
-    [new RegExp(`<meta property="og:url" content="${page.url.replace(/\//g, "\\/")}" \\/>`), "missing Open Graph URL"],
+    [
+      new RegExp(`<link rel="canonical" href="${page.url.replace(/\//g, "\\/")}" \\/>`),
+      "missing canonical URL",
+    ],
+    [
+      new RegExp(`<meta property="og:url" content="${page.url.replace(/\//g, "\\/")}" \\/>`),
+      "missing Open Graph URL",
+    ],
     [/<meta name="twitter:card" content="summary" \/>/, "missing Twitter card"],
     [/<a class="skip-link" href="#main">Skip to content<\/a>/, "missing skip link"],
     [/<main id="main">/, "missing main landmark id"],
