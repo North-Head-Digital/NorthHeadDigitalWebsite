@@ -340,6 +340,20 @@ li { margin-bottom: 0.4rem; }
 }
 .icon-badge svg { width: 26px; height: 26px; }
 
+/* Brand line-icon set (assets/icons.svg) */
+.svg-ico { display: block; }
+.ico-frame {
+  width: 54px; height: 54px;
+  display: grid; place-items: center;
+  border: 1.5px solid var(--fog-200);
+  border-radius: 14px;
+  background: var(--fog);
+  margin-bottom: 18px;
+}
+.ico-frame .svg-ico { width: 30px; height: 30px; }
+.addon-cell { display: inline-flex; align-items: center; gap: 12px; }
+.addon-cell .svg-ico { width: 22px; height: 22px; flex: none; }
+
 .feature-list { list-style: none; padding: 0; margin: 0; }
 .feature-list li {
   position: relative;
