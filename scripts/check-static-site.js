@@ -4,11 +4,11 @@ const fs = require("fs");
 
 const siteUrl = "https://northheaddigital.com";
 const pages = [
-  { file: "index.html", url: `${siteUrl}/` },
-  { file: "services.html", url: `${siteUrl}/services.html` },
-  { file: "pricing.html", url: `${siteUrl}/pricing.html` },
-  { file: "about.html", url: `${siteUrl}/about.html` },
-  { file: "contact.html", url: `${siteUrl}/contact.html` },
+  { file: "public/index.html", url: `${siteUrl}/` },
+  { file: "public/services.html", url: `${siteUrl}/services.html` },
+  { file: "public/pricing.html", url: `${siteUrl}/pricing.html` },
+  { file: "public/about.html", url: `${siteUrl}/about.html` },
+  { file: "public/contact.html", url: `${siteUrl}/contact.html` },
 ];
 
 const errors = [];
@@ -45,20 +45,20 @@ for (const page of pages) {
   }
 }
 
-const sitemap = read("sitemap.xml");
+const sitemap = read("public/sitemap.xml");
 for (const page of pages) {
   if (!sitemap.includes(`<loc>${page.url}</loc>`)) {
-    errors.push(`sitemap.xml: missing ${page.url}`);
+    errors.push(`public/sitemap.xml: missing ${page.url}`);
   }
 }
 
-const robots = read("robots.txt");
+const robots = read("public/robots.txt");
 if (!robots.includes(`Sitemap: ${siteUrl}/sitemap.xml`)) {
-  errors.push("robots.txt: missing sitemap directive");
+  errors.push("public/robots.txt: missing sitemap directive");
 }
 
 const netlify = read("netlify.toml");
-for (const expected of ["robots.txt", "sitemap.xml", 'publish = "public"']) {
+for (const expected of ["npm run build", 'publish = "public"']) {
   if (!netlify.includes(expected)) {
     errors.push(`netlify.toml: missing ${expected}`);
   }

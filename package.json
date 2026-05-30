@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "check": "node scripts/check-static-site.js && node --check js/main.js"
+    "build": "eleventy",
+    "check": "npm run build && node scripts/check-static-site.js && node --check src/js/main.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
   }
 }

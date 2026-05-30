@@ -1,15 +1,10 @@
 # Netlify deployment configuration for the NorthHead Digital static site.
-# The site is plain HTML/CSS/JS; the build step copies public assets into public/.
+# Eleventy builds source files from src/ into public/.
 #
-# Note: settings here OVERRIDE the Netlify UI build settings. The explicit build
-# command assembles the deployable static files into public/.
+# Note: settings here OVERRIDE the Netlify UI build settings.
 
 [build]
-  # The Netlify project is configured (in the UI) to publish a "public" directory.
-  # This site is hand-written static files at the repo root, so the "build" simply
-  # assembles them into public/. Publishing "public" satisfies both this config and
-  # the UI setting, and the explicit command overrides any leftover UI build command.
-  command = "rm -rf public && mkdir -p public && cp -r *.html css js assets robots.txt sitemap.xml public/"
+  command = "npm run build"
   publish = "public"
 
 # Security & caching headers
