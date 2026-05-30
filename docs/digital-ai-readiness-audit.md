@@ -17,29 +17,29 @@ Spend 10–15 minutes before the consultation reviewing the following.
 
 ### Basic online presence
 
-| Item | Check |
-|------|-------|
-| Website exists? | Yes / No |
-| Website looks current? | Yes / No |
-| Mobile-friendly? | Yes / No |
-| Clear phone number? | Yes / No |
-| Clear hours? | Yes / No |
-| Clear service/menu/product info? | Yes / No |
-| Contact form works? | Yes / No |
+| Item                              | Check    |
+| --------------------------------- | -------- |
+| Website exists?                   | Yes / No |
+| Website looks current?            | Yes / No |
+| Mobile-friendly?                  | Yes / No |
+| Clear phone number?               | Yes / No |
+| Clear hours?                      | Yes / No |
+| Clear service/menu/product info?  | Yes / No |
+| Contact form works?               | Yes / No |
 | Booking/quote/reservation option? | Yes / No |
 
 ### Google Business Profile
 
-| Item | Check |
-|------|-------|
-| Appears on Google Maps? | Yes / No |
-| Correct hours? | Yes / No |
-| Correct phone number? | Yes / No |
-| Correct website link? | Yes / No |
-| Recent photos? | Yes / No |
-| Recent reviews? | Yes / No |
+| Item                       | Check    |
+| -------------------------- | -------- |
+| Appears on Google Maps?    | Yes / No |
+| Correct hours?             | Yes / No |
+| Correct phone number?      | Yes / No |
+| Correct website link?      | Yes / No |
+| Recent photos?             | Yes / No |
+| Recent reviews?            | Yes / No |
 | Owner responds to reviews? | Yes / No |
-| Good category selection? | Yes / No |
+| Good category selection?   | Yes / No |
 
 ### First impression notes
 
@@ -56,14 +56,14 @@ Write down 3 quick observations:
 
 ## 2. 30-Minute Consultation Structure
 
-| Time | Section | Goal |
-|------|---------|------|
-| 0–3 min | Set context | Make owner comfortable |
-| 3–8 min | Business snapshot | Understand revenue model |
-| 8–15 min | Lead/customer flow | Find lost revenue |
-| 15–22 min | Operations bottlenecks | Find wasted time |
+| Time      | Section                 | Goal                          |
+| --------- | ----------------------- | ----------------------------- |
+| 0–3 min   | Set context             | Make owner comfortable        |
+| 3–8 min   | Business snapshot       | Understand revenue model      |
+| 8–15 min  | Lead/customer flow      | Find lost revenue             |
+| 15–22 min | Operations bottlenecks  | Find wasted time              |
 | 22–26 min | Digital presence review | Connect issues to website/SEO |
-| 26–30 min | Recap and next step | Position paid proposal |
+| 26–30 min | Recap and next step     | Position paid proposal        |
 
 ---
 
@@ -75,7 +75,7 @@ Use simple language.
 > you, where you lose time, and where you may be missing easy business. At the end, I'll
 > summarize the top 2–3 areas where a website, Google cleanup, or simple automation could help."
 
-Then ask: *"Does that sound useful?"*
+Then ask: _"Does that sound useful?"_
 
 ---
 
@@ -104,13 +104,13 @@ matters most.
 
 ### What to listen for
 
-| Owner says | Opportunity |
-|------------|-------------|
-| "People do not know we offer that." | Website copy / Google profile / local SEO |
+| Owner says                                     | Opportunity                                     |
+| ---------------------------------------------- | ----------------------------------------------- |
+| "People do not know we offer that."            | Website copy / Google profile / local SEO       |
 | "We are slammed in summer but slow in winter." | Seasonal campaigns / email list / landing pages |
-| "We get a lot of bad-fit calls." | Quote intake / lead qualification |
-| "Everyone asks the same questions." | FAQ page / AI assistant / automated replies |
-| "We depend on Facebook." | Website / Google / email list |
+| "We get a lot of bad-fit calls."               | Quote intake / lead qualification               |
+| "Everyone asks the same questions."            | FAQ page / AI assistant / automated replies     |
+| "We depend on Facebook."                       | Website / Google / email list                   |
 
 ---
 
@@ -145,24 +145,24 @@ matters most.
 
 ### Bottleneck indicators
 
-| Bottleneck | Evidence |
-|------------|----------|
-| Missed calls | Owner is too busy to answer |
-| Slow replies | Messages sit for hours or days |
-| No follow-up | Leads disappear after first contact |
-| No tracking | Owner does not know where leads come from |
+| Bottleneck        | Evidence                                      |
+| ----------------- | --------------------------------------------- |
+| Missed calls      | Owner is too busy to answer                   |
+| Slow replies      | Messages sit for hours or days                |
+| No follow-up      | Leads disappear after first contact           |
+| No tracking       | Owner does not know where leads come from     |
 | Bad-fit inquiries | Owner spends time answering unqualified leads |
 
 ### Paid project this can become
 
-| Problem found | Paid solution |
-|---------------|---------------|
-| Missed calls | Missed call text-back system |
-| Slow replies | Contact form routing + automated response |
-| Repetitive questions | FAQ page or AI website assistant |
-| Poor lead quality | Quote intake form |
-| No tracking | Basic lead dashboard |
-| Lost follow-up | Email/SMS follow-up sequence |
+| Problem found        | Paid solution                             |
+| -------------------- | ----------------------------------------- |
+| Missed calls         | Missed call text-back system              |
+| Slow replies         | Contact form routing + automated response |
+| Repetitive questions | FAQ page or AI website assistant          |
+| Poor lead quality    | Quote intake form                         |
+| No tracking          | Basic lead dashboard                      |
+| Lost follow-up       | Email/SMS follow-up sequence              |
 
 ---
 
@@ -201,27 +201,27 @@ matters most.
 
 ### Local SEO red flags
 
-| Red flag | Why it matters |
-|----------|----------------|
-| Website older than 3–5 years | May look abandoned or perform poorly on mobile |
-| No Google Business Profile control | Owner cannot manage local search presence |
-| Wrong hours | Lost walk-ins and angry customers |
-| Few recent reviews | Lower trust |
-| No location/service-area language | Poor local search relevance |
-| No clear call-to-action | Visitors leave without contacting |
-| No analytics | Owner cannot see what is working |
+| Red flag                           | Why it matters                                 |
+| ---------------------------------- | ---------------------------------------------- |
+| Website older than 3–5 years       | May look abandoned or perform poorly on mobile |
+| No Google Business Profile control | Owner cannot manage local search presence      |
+| Wrong hours                        | Lost walk-ins and angry customers              |
+| Few recent reviews                 | Lower trust                                    |
+| No location/service-area language  | Poor local search relevance                    |
+| No clear call-to-action            | Visitors leave without contacting              |
+| No analytics                       | Owner cannot see what is working               |
 
 ### Paid project this can become
 
-| Problem found | Paid solution |
-|---------------|---------------|
-| Outdated website | Digital Essentials website |
-| Weak Google profile | Google Business Profile cleanup |
-| Poor mobile experience | Mobile-first redesign |
-| No local pages | Local SEO service pages |
-| Few reviews | Review request automation |
-| No tracking | Analytics dashboard |
-| Weak event visibility | Seasonal/event landing pages |
+| Problem found          | Paid solution                   |
+| ---------------------- | ------------------------------- |
+| Outdated website       | Digital Essentials website      |
+| Weak Google profile    | Google Business Profile cleanup |
+| Poor mobile experience | Mobile-first redesign           |
+| No local pages         | Local SEO service pages         |
+| Few reviews            | Review request automation       |
+| No tracking            | Analytics dashboard             |
+| Weak event visibility  | Seasonal/event landing pages    |
 
 ---
 
@@ -280,18 +280,18 @@ matters most.
 
 ### Paid project this can become
 
-| Bottleneck | Web/AI project |
-|------------|----------------|
-| Same questions all day | FAQ page + AI assistant |
-| Missed calls | Text-back automation |
-| Manual quotes | Quote intake form |
-| Manual invoices | Invoice workflow setup |
-| Poor payment follow-up | Payment reminder automation |
-| Staff ask owner everything | Internal knowledge base |
-| No customer list | Email/SMS capture system |
-| Outdated menus/specials | Menu update workflow |
-| No review habit | Review request system |
-| Poor seasonal reactivation | Email campaign system |
+| Bottleneck                 | Web/AI project              |
+| -------------------------- | --------------------------- |
+| Same questions all day     | FAQ page + AI assistant     |
+| Missed calls               | Text-back automation        |
+| Manual quotes              | Quote intake form           |
+| Manual invoices            | Invoice workflow setup      |
+| Poor payment follow-up     | Payment reminder automation |
+| Staff ask owner everything | Internal knowledge base     |
+| No customer list           | Email/SMS capture system    |
+| Outdated menus/specials    | Menu update workflow        |
+| No review habit            | Review request system       |
+| Poor seasonal reactivation | Email campaign system       |
 
 ---
 
@@ -311,13 +311,13 @@ matters most.
 
 ### Owner concern translation
 
-| Owner concern | Response |
-|---------------|----------|
-| "I do not want a robot talking to customers." | "Then we keep it limited to drafts or basic approved answers." |
-| "I do not trust AI." | "We only use it where the answer is based on your approved information." |
-| "My customers want a real person." | "This helps people reach the real person faster." |
-| "I am not technical." | "You do not need to manage the tool. You approve the rules and we maintain it." |
-| "I do not want to replace staff." | "This is for missed calls, repeat questions, and after-hours support." |
+| Owner concern                                 | Response                                                                        |
+| --------------------------------------------- | ------------------------------------------------------------------------------- |
+| "I do not want a robot talking to customers." | "Then we keep it limited to drafts or basic approved answers."                  |
+| "I do not trust AI."                          | "We only use it where the answer is based on your approved information."        |
+| "My customers want a real person."            | "This helps people reach the real person faster."                               |
+| "I am not technical."                         | "You do not need to manage the tool. You approve the rules and we maintain it." |
+| "I do not want to replace staff."             | "This is for missed calls, repeat questions, and after-hours support."          |
 
 ---
 
@@ -325,38 +325,38 @@ matters most.
 
 Score each category from 0 to 3.
 
-| Score | Meaning |
-|-------|---------|
-| 0 | No issue / already handled |
-| 1 | Minor issue |
-| 2 | Clear issue costing time or leads |
-| 3 | Serious issue likely costing revenue |
+| Score | Meaning                              |
+| ----- | ------------------------------------ |
+| 0     | No issue / already handled           |
+| 1     | Minor issue                          |
+| 2     | Clear issue costing time or leads    |
+| 3     | Serious issue likely costing revenue |
 
 ### Audit scorecard
 
-| Category | Score | Notes |
-|----------|-------|-------|
-| Website clarity | 0–3 | |
-| Mobile experience | 0–3 | |
-| Google Business Profile | 0–3 | |
-| Local SEO | 0–3 | |
-| Review generation | 0–3 | |
-| Missed calls/messages | 0–3 | |
-| Lead follow-up | 0–3 | |
-| Booking/quote process | 0–3 | |
-| Manual admin | 0–3 | |
-| Customer reactivation | 0–3 | |
-| Staff/internal knowledge | 0–3 | |
-| AI readiness | 0–3 | |
+| Category                 | Score | Notes |
+| ------------------------ | ----- | ----- |
+| Website clarity          | 0–3   |       |
+| Mobile experience        | 0–3   |       |
+| Google Business Profile  | 0–3   |       |
+| Local SEO                | 0–3   |       |
+| Review generation        | 0–3   |       |
+| Missed calls/messages    | 0–3   |       |
+| Lead follow-up           | 0–3   |       |
+| Booking/quote process    | 0–3   |       |
+| Manual admin             | 0–3   |       |
+| Customer reactivation    | 0–3   |       |
+| Staff/internal knowledge | 0–3   |       |
+| AI readiness             | 0–3   |       |
 
 ### Interpreting the score
 
-| Total score | Recommendation |
-|-------------|----------------|
-| 0–8 | Maintenance or small cleanup only |
-| 9–18 | Tier 1: Digital Essentials |
-| 19–28 | Tier 2: Growth & Automation |
-| 29+ | Tier 3 or custom project |
+| Total score | Recommendation                    |
+| ----------- | --------------------------------- |
+| 0–8         | Maintenance or small cleanup only |
+| 9–18        | Tier 1: Digital Essentials        |
+| 19–28       | Tier 2: Growth & Automation       |
+| 29+         | Tier 3 or custom project          |
 
 ---
 
@@ -391,9 +391,9 @@ Use this structure after the consultation.
 
 **Step 5: Offer 2 options, not 5.** Avoid overwhelming the owner.
 
-| Option | Best for | Price |
-|--------|----------|-------|
-| Basic fix | Solve the immediate problem | $995 |
+| Option        | Best for                                | Price  |
+| ------------- | --------------------------------------- | ------ |
+| Basic fix     | Solve the immediate problem             | $995   |
 | Better system | Solve the problem and improve follow-up | $3,500 |
 
 **Step 6: End with a clear next step.**
@@ -601,20 +601,20 @@ Then ask:
 
 ### Bottleneck checklist
 
-| Area | Issue found? | Notes |
-|------|--------------|-------|
-| Website outdated | Yes / No | |
-| Poor mobile experience | Yes / No | |
-| Google profile weak | Yes / No | |
-| Few recent reviews | Yes / No | |
-| Missed calls | Yes / No | |
-| Slow message response | Yes / No | |
-| Manual quote process | Yes / No | |
-| Manual invoicing | Yes / No | |
-| No email/SMS list | Yes / No | |
-| Repetitive customer questions | Yes / No | |
-| No lead tracking | Yes / No | |
-| Poor seasonal marketing | Yes / No | |
+| Area                          | Issue found? | Notes |
+| ----------------------------- | ------------ | ----- |
+| Website outdated              | Yes / No     |       |
+| Poor mobile experience        | Yes / No     |       |
+| Google profile weak           | Yes / No     |       |
+| Few recent reviews            | Yes / No     |       |
+| Missed calls                  | Yes / No     |       |
+| Slow message response         | Yes / No     |       |
+| Manual quote process          | Yes / No     |       |
+| Manual invoicing              | Yes / No     |       |
+| No email/SMS list             | Yes / No     |       |
+| Repetitive customer questions | Yes / No     |       |
+| No lead tracking              | Yes / No     |       |
+| Poor seasonal marketing       | Yes / No     |       |
 
 ### Top 3 opportunities
 
