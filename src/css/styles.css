@@ -191,8 +191,10 @@ li { margin-bottom: 0.4rem; }
 .btn--ghost { background: transparent; color: var(--navy); border-color: var(--fog-200); }
 .btn--ghost:hover { border-color: var(--blue); color: var(--blue-600); }
 
-.section--navy .btn--ghost { color: #fff; border-color: rgba(255,255,255,0.35); }
-.section--navy .btn--ghost:hover { border-color: var(--sand); color: var(--sand); }
+.section--navy .btn--ghost,
+.hero .btn--ghost { color: #fff; border-color: rgba(255,255,255,0.35); }
+.section--navy .btn--ghost:hover,
+.hero .btn--ghost:hover { border-color: var(--sand); color: var(--sand); }
 
 .btn--lg { padding: 17px 32px; font-size: 1.05rem; }
 .btn--full { width: 100%; justify-content: center; }
@@ -369,16 +371,16 @@ li { margin-bottom: 0.4rem; }
 /* Brand line-icon set (assets/icons.svg) */
 .svg-ico { display: block; }
 .ico-frame {
-  width: 56px; height: 56px;
+  width: 60px; height: 60px;
   display: grid; place-items: center;
   border: 1.5px solid var(--fog-200);
-  border-radius: 14px;
+  border-radius: 15px;
   background: var(--fog);
   margin-bottom: 16px;
 }
-.ico-frame .svg-ico { width: 34px; height: 34px; }
+.ico-frame .svg-ico { width: 38px; height: 38px; }
 .addon-cell { display: inline-flex; align-items: center; gap: 12px; }
-.addon-cell .svg-ico { width: 24px; height: 24px; flex: none; }
+.addon-cell .svg-ico { width: 26px; height: 26px; flex: none; }
 
 .feature-list { list-style: none; padding: 0; margin: 0; }
 .feature-list li {
