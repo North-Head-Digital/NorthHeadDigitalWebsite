@@ -14,16 +14,31 @@
   var links = document.getElementById("nav-links");
 
   if (toggle && links) {
+    var closeMenu = function () {
+      links.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+
     toggle.addEventListener("click", function () {
       var open = links.classList.toggle("open");
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      if (open) {
+        var firstLink = links.querySelector("a");
+        if (firstLink) firstLink.focus();
+      }
     });
 
     // Close the menu when a link is tapped (mobile)
     links.addEventListener("click", function (e) {
       if (e.target.closest("a")) {
-        links.classList.remove("open");
-        toggle.setAttribute("aria-expanded", "false");
+        closeMenu();
+      }
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && links.classList.contains("open")) {
+        closeMenu();
+        toggle.focus();
       }
     });
   }
@@ -40,7 +55,10 @@
 
   /* ----- Scroll reveal ------------------------------------------------ */
   var revealEls = document.querySelectorAll(".reveal");
-  if ("IntersectionObserver" in window && revealEls.length) {
+  var reduceMotion =
+    "matchMedia" in window &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if ("IntersectionObserver" in window && revealEls.length && !reduceMotion) {
     var io = new IntersectionObserver(
       function (entries) {
         entries.forEach(function (entry) {
@@ -111,11 +129,10 @@
           );
         })
         .catch(function () {
-          // Graceful fallback so the form never feels broken in a static preview.
-          form.reset();
+          // Keep entered data so a failed submission does not silently lose a lead.
           setStatus(
-            "success",
-            "Thanks for reaching out! We'll follow up shortly. (If you don't hear back, email hello@northheaddigital.com.)"
+            "error",
+            "We couldn't send the form. Please email hello@northheaddigital.com with your details, or try again in a moment."
           );
         })
         .finally(function () {
