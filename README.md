@@ -38,7 +38,8 @@ python3 -m http.server 8000
 
 ## Deploy
 
-Deploys to **Netlify** as-is (publish directory = repo root). The contact form is
+Deploys to **Netlify** with the build command in `netlify.toml`, which copies the
+static site files into `public/` and publishes that directory. The contact form is
 wired for [Netlify Forms](https://docs.netlify.com/forms/setup/) via the `data-netlify`
 attribute and a hidden `form-name` field.
 
