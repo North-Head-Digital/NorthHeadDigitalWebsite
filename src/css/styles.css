@@ -369,16 +369,16 @@ li { margin-bottom: 0.4rem; }
 /* Brand line-icon set (assets/icons.svg) */
 .svg-ico { display: block; }
 .ico-frame {
-  width: 50px; height: 50px;
+  width: 56px; height: 56px;
   display: grid; place-items: center;
   border: 1.5px solid var(--fog-200);
-  border-radius: 13px;
+  border-radius: 14px;
   background: var(--fog);
   margin-bottom: 16px;
 }
-.ico-frame .svg-ico { width: 28px; height: 28px; }
+.ico-frame .svg-ico { width: 34px; height: 34px; }
 .addon-cell { display: inline-flex; align-items: center; gap: 12px; }
-.addon-cell .svg-ico { width: 22px; height: 22px; flex: none; }
+.addon-cell .svg-ico { width: 24px; height: 24px; flex: none; }
 
 .feature-list { list-style: none; padding: 0; margin: 0; }
 .feature-list li {
