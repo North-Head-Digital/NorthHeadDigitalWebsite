@@ -26,8 +26,8 @@ schema: pricing
           <div class="price-card reveal">
             <span class="ico-frame"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-seed"></use></svg></span>
             <h3>Digital Essentials</h3>
-            <p class="subtitle">Website + Google cleanup for local businesses</p>
-            <div class="price">From $750<small>Typical $995, up to $1,500 · Care $75–$175/mo</small></div>
+            <p class="subtitle">{{ pricing.essentials.subtitle }}</p>
+            <div class="price">From {{ pricing.essentials.from }}<small>Typical {{ pricing.essentials.typical }}, up to {{ pricing.essentials.upTo }} · Care {{ pricing.essentials.careFrom }}–{{ pricing.essentials.careTo }}/mo</small></div>
             <ul class="feature-list">
               <li>1-page mobile-friendly website</li>
               <li>Google Business Profile cleanup</li>
@@ -43,8 +43,8 @@ schema: pricing
           <div class="price-card is-featured reveal">
             <span class="ico-frame"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-sprout"></use></svg></span>
             <h3>Growth &amp; Automation</h3>
-            <p class="subtitle">More leads, fewer missed calls, better follow-up</p>
-            <div class="price">From $2,500<small>Typical $3,500, up to $5,000 · Care $250–$650/mo</small></div>
+            <p class="subtitle">{{ pricing.growth.subtitle }}</p>
+            <div class="price">From {{ pricing.growth.from }}<small>Typical {{ pricing.growth.typical }}, up to {{ pricing.growth.upTo }} · Care {{ pricing.growth.careFrom }}–{{ pricing.growth.careTo }}/mo</small></div>
             <ul class="feature-list">
               <li class="lead">Everything in Digital Essentials, plus:</li>
               <li>5-page website or refresh</li>
@@ -61,8 +61,8 @@ schema: pricing
           <div class="price-card reveal">
             <span class="ico-frame"><svg class="svg-ico" aria-hidden="true" focusable="false"><use href="assets/icons.svg#ic-tree"></use></svg></span>
             <h3>Startup Launchpad</h3>
-            <p class="subtitle">Full digital launch for new or growing businesses</p>
-            <div class="price">From $5,000<small>Typical $7,500, up to $10,000+ · Care $500–$1,250/mo</small></div>
+            <p class="subtitle">{{ pricing.launchpad.subtitle }}</p>
+            <div class="price">From {{ pricing.launchpad.from }}<small>Typical {{ pricing.launchpad.typical }}, up to {{ pricing.launchpad.upTo }} · Care {{ pricing.launchpad.careFrom }}–{{ pricing.launchpad.careTo }}/mo</small></div>
             <ul class="feature-list">
               <li class="lead">Everything in Growth &amp; Automation, plus:</li>
               <li>Strategy &amp; 60–90 day launch plan</li>
