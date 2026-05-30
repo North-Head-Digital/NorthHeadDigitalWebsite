@@ -146,6 +146,10 @@ li { margin-bottom: 0.4rem; }
 .section--navy .eyebrow { color: var(--sand); }
 
 .lead { font-size: 1.2rem; color: var(--muted); }
+.text-sand { color: var(--sand); }
+.text-center { text-align: center; }
+.mt-md { margin-top: 24px; }
+.mt-lg { margin-top: 28px; }
 
 /* Grids */
 .grid { display: grid; gap: 28px; }
@@ -188,6 +192,7 @@ li { margin-bottom: 0.4rem; }
 .section--navy .btn--ghost:hover { border-color: var(--sand); color: var(--sand); }
 
 .btn--lg { padding: 17px 32px; font-size: 1.05rem; }
+.btn--full { width: 100%; justify-content: center; }
 
 /* ---------------------------------------------------------------------------
    5. Header / navigation
@@ -330,6 +335,7 @@ li { margin-bottom: 0.4rem; }
 .hero-stat:first-of-type { border-top: none; }
 .hero-stat b { font-family: var(--font-head); font-size: 1.6rem; color: var(--sand); }
 .hero-stat span { color: #b9cdd5; font-size: 0.98rem; }
+.section-head--cta { margin-top: 44px; margin-bottom: 0; }
 
 /* ---------------------------------------------------------------------------
    7. Cards & features
@@ -400,6 +406,11 @@ li { margin-bottom: 0.4rem; }
   color: rgba(255,255,255,0.9);
 }
 .media-frame .mark-lg { width: 46%; opacity: 0.9; }
+.media-frame--blue { background: linear-gradient(160deg, var(--blue), var(--navy)); }
+.media-frame--green { background: linear-gradient(160deg, var(--green), var(--navy)); }
+.media-icon { width: 38%; opacity: 0.9; }
+.media-icon--sm { width: 36%; }
+.media-icon--lg { width: 40%; }
 .media-frame::after {
   content: "";
   position: absolute; inset: 0;
@@ -443,10 +454,15 @@ li { margin-bottom: 0.4rem; }
 .price-card .subtitle { color: var(--muted); font-size: 0.95rem; margin-bottom: 18px; }
 .price { font-family: var(--font-head); font-weight: 700; color: var(--navy); font-size: 2rem; line-height: 1; }
 .price small { display: block; font-size: 0.9rem; font-weight: 500; color: var(--muted); margin-top: 8px; }
+.price--care { font-size: 1.5rem; }
 .price-card .feature-list { margin: 22px 0 26px; }
 .price-card .btn { margin-top: auto; width: 100%; justify-content: center; }
 
 .note { font-size: 0.95rem; color: var(--muted); }
+.note--centered { text-align: center; margin-top: 28px; }
+.note--form { text-align: center; margin-top: 14px; margin-bottom: 0; }
+.feature-list--spaced { margin-top: 16px; }
+.feature-list--compact-spaced { margin-top: 14px; }
 
 /* Tables (pricing add-ons / payment) */
 .table-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--fog-200); }
@@ -499,6 +515,11 @@ blockquote {
 }
 .section--navy blockquote { color: #fff; }
 blockquote.pull { border-left: 4px solid var(--sand); padding-left: 24px; }
+.container--narrow-centered {
+  max-width: 840px;
+  text-align: center;
+}
+.section--flush-top { padding-top: 0; }
 
 /* ---------------------------------------------------------------------------
    12. Forms
@@ -519,6 +540,7 @@ blockquote.pull { border-left: 4px solid var(--sand); padding-left: 24px; }
   color: var(--navy);
   margin-bottom: 7px;
 }
+.optional-label { color: var(--muted); font-weight: 500; }
 .field input,
 .field select,
 .field textarea {
@@ -600,6 +622,7 @@ blockquote.pull { border-left: 4px solid var(--sand); padding-left: 24px; }
 }
 .page-hero h1 { color: #fff; }
 .page-hero p { color: #b9cdd5; font-size: 1.2rem; max-width: 56ch; margin-inline: auto; }
+.page-hero-area { margin-top: 14px; }
 
 /* ---------------------------------------------------------------------------
    15. Scroll-reveal animation
